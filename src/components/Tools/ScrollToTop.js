@@ -24,7 +24,7 @@ export default function ScrollToTop() {
   return (
     <div>
       {isVisible && (
-        <span onClick={scrollToTop} className="scrolls">
+        <span onClick={scrollToTop} className=" text-white w-16 h-16 rounded-full text-4xl fixed right-9 bottom-9 bg_1 d--flex-2 cursor-pointer">
           <FiArrowUp />
         </span>
       )}

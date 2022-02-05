@@ -22,9 +22,9 @@ export default function Like() {
     },
   ];
   return (
-    <section className="like my-10">
+    <section className="like my-10 px-6">
       <div className=" container">
-        <div className=" grid gap-6 grid-cols-2 px-6">
+        <div className=" grid gap-6 grid-cols-2">
           {dataCard.map((item) => (
             <div className="md:col-span-1 col-span-2 bg-color_2 py-14 px-14 rounded-xl" key={item.id}>
               <ul>

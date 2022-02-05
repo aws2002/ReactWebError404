@@ -15,6 +15,7 @@ module.exports = {
       text_color:'#999999',
       color_1:'#FF3998',
       color_2:"#555555",
+      color_3:"#FF8139",
       inherit: colors.inherit,
       current: colors.current,
       transparent: colors.transparent,

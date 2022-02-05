@@ -15,7 +15,7 @@ export default function HeroSections() {
                 below to receive updates when we go live.
               </p>
 
-              <div class="outer relative h-[60px] w-[180px] rounded-[50px]">
+              <div className="outer relative h-[60px] w-[180px] rounded-[50px]">
                 <button className=" font-semibold text-xl bg-bg_color z-10 text-white h-[50px] w-[170px] rounded-[50px]">Sign Up</button>
                 <span></span>
                 <span></span>
