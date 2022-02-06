@@ -85,7 +85,7 @@ export default function SuperRare() {
       <div className="container">
         <div className="grid grid-cols-12 gap-7">
           <div className="col-span-12">
-            <h3 className=" text-white text-5xl font-bold mb-8">
+            <h3 className=" text-5xl font-bold mb-8">
               LE Super Rare Auction
             </h3>
             <p className=" text-text_color font-semibold">

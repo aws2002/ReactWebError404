@@ -6,7 +6,7 @@ import SignUp from "../Sections/SignUp"
 import SuperRare from "../Sections/SuperRare"
 export default function Main() {
     return (
-        <main className="">
+        <main>
             <HeroSections/>
             <Brand/>
             <Release/>

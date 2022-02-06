@@ -7,7 +7,7 @@ export default function HeroSections() {
           <div className="col-span-6 d--flex px-6">
             <div>
               <span className="text-color_1 text-lg font-semibold">Launching Soon</span>
-              <h2 className=" my-5 text-white md:text-8xl text-5xl font-bold">
+              <h2 className=" my-5  md:text-8xl text-5xl font-bold">
               An NFT like no other
               </h2>
               <p className=" text-text_color mb-5">

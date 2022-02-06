@@ -49,10 +49,10 @@ export default function Footer() {
         <div className=" grid md:grid-cols-12 mt-24 md:gap-x-28 gap-x-0">
           <div className="md:col-span-6 mb-10">
             <ul>
-              <li className=" text-white text-4xl font-bold">
+              <li className=" text-4xl font-bold">
                 <img className="inline" src={Logo} alt="" /> nftlanding
               </li>
-              <li className=" text-white mt-7 mb-2">
+              <li className=" mt-7 mb-2">
                 Exclusive NFT Collection
               </li>
               {itemIcon.map((item) => (
@@ -72,13 +72,13 @@ export default function Footer() {
               {footerLinks.map((item) => (
                 <div className="md:col-span-3 col-span-6 mb-10" key={item.id}>
                   <ul>
-                    <li className="font-bold text-white text-xl mb-3 uppercase">
+                    <li className="font-bold text-xl mb-3 uppercase">
                       {item.category}
                     </li>
 
                     {item.links.map((link) => (
                       <li
-                        className=" text-[14px] text-white mb-4 font-semibold"
+                        className=" text-[14px] mb-4 font-semibold"
                         key={link.id}
                       >
                         <a href={link.href}>{link.nameLink}</a>

@@ -94,3 +94,6 @@ svg {
 .slick-slide img {
   display: inline;
 }
+.switch[data-isOn="true"] {
+  justify-content: flex-end;
+}

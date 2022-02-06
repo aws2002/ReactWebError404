@@ -6,7 +6,7 @@ import Main from "./components/Pages/Main";
 import ScrollToTop from "./components/Tools/ScrollToTop";
 export default function App() {
   return (
-    <div className=" bg-bg_color">
+    <div className=" bg-bg_color dark:bg-white dark:text-black text-white transition duration-500">
       <Navbar />
       <Routes>
         <Route path="/" element={<Main/>} />
