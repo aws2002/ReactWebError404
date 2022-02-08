@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Modal from "../Tools/Modal";
+import Modal from "../Hooks/Modal";
 export default function Home() {
   const [selectedId, setSelectedId] = React.useState(false);
   const [selectedId2, setSelectedId2] = React.useState(false);
