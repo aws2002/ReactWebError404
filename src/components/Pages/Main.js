@@ -8,8 +8,8 @@ import Home from "./Home"
 export default function Main() {
     return (
         <main>
-            {/* <Home/> */}
-            <HeroSections/>
+            <Home/>
+            <HeroSections />
             <Brand/>
             <Release/>
             <SuperRare/>

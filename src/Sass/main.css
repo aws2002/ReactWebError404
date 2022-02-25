@@ -460,6 +460,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .relative {
   position: relative;
 }
+.sticky {
+  position: sticky;
+}
 .inset-0 {
   top: 0px;
   right: 0px;
@@ -1209,14 +1212,14 @@ svg {
   );
 }
 .slick-slider button {
-  display: none !important;
+  display: none !important; 
 }
 .slick-slide img {
   display: inline;
 }
 .switch[data-isOn="true"] {
-  justify-content: flex-end;
-}
+    justify-content: flex-end;
+  }
 .hover\:bg-gray-700:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(55 65 81 / var(--tw-bg-opacity));

@@ -12,7 +12,7 @@ const user = {
 const navigation = [
   { name: "Home", href: "/", current: false },
   { name: "What is GPT?", href: "/page_2", current: false },
-  { name: "Open Al", href: "#", current: true },
+  { name: "Open Al", href: "#test", current: true },
   { name: "Case Studies", href: "#", current: false },
   { name: "Library", href: "#", current: false },
 ];
@@ -27,7 +27,7 @@ function classNames(...classes) {
 }
 export default function Navbar() {
   return (
-    <header>
+    <header className="sticky">
       <div className="min-h-full gradient__bg_2">
         <Disclosure as="nav" className="bg-transparent">
           {({ open }) => (

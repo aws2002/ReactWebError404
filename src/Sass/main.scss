@@ -89,11 +89,11 @@ svg {
   );
 }
 .slick-slider button {
-  display: none !important;
+  display: none !important; 
 }
 .slick-slide img {
   display: inline;
 }
-.switch[data-isOn="true"] {
-  justify-content: flex-end;
-}
+  .switch[data-isOn="true"] {
+    justify-content: flex-end;
+  }

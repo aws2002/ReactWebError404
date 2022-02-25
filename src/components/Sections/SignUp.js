@@ -1,7 +1,7 @@
 import Img_1 from "../../images/img-1.png";
 export default function SignUp() {
   return (
-    <section className="signUp my-14">
+    <section className="signUp my-14" id="test">
       <div className="container overflow-hidden">
         <div className=" grid grid-cols-12 pt-20 border-opacity-40 border-gray-500 border-y-2">
           <div className="col-span-6 d--flex  px-6">
